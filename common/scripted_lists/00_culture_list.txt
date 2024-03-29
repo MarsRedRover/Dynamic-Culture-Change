@@ -1,0 +1,9 @@
+﻿every_realm_county = {
+	debug_log_details = yes
+	culture = {
+		limit = {
+			NOT = { is_in_list = realm_cultures }
+		}
+		add_to_list = realm_cultures
+	}
+}
